@@ -1,0 +1,21 @@
+config
+system
+ host-name vManage
+ system-ip 7.7.7.107
+ site-id 1
+ organization-name "org"
+ vbond 10.10.1.106
+vpn 0
+ interface eth0
+  ip address 10.10.1.107/24
+  no shut
+  no tunnel-interface
+  exit
+ ip route 0.0.0.0/0 10.10.1.1
+vpn 512
+ interface eth1
+ ip add 192.168.1.107/24
+ no shut
+ exit
+commit and-quit 
+
