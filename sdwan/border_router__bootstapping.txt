@@ -1,0 +1,20 @@
+conf t
+hostname Border_Router
+no ip domain lookup
+int g0/0
+ no shut
+ip add 10.10.1.1 255.255.255.0
+exit
+int g0/1
+no shut
+ip add 172.16.10.1 255.255.255.0
+exit
+int g0/2
+no shut
+ip add 172.16.20.1 255.255.255.0
+exit
+
+line con 0
+logg synchronous
+end
+wr
