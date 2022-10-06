@@ -1,0 +1,12 @@
+---
+
+cisco_group:
+    platform: "ios"
+    connection_options:
+        scrapli:
+            extras:
+                ssh_config_file: True
+                auth_strict_key: False
+        
+
+usa_group: {}

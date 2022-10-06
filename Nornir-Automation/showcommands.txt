@@ -1,0 +1,2 @@
+show ip int bri | ex unass
+show ntp config
