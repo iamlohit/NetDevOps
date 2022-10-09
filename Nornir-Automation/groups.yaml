@@ -1,6 +1,6 @@
 ---
 
-cisco_group:
+cisco_north:
     platform: "ios"
     connection_options:
         scrapli:
@@ -9,4 +9,10 @@ cisco_group:
                 auth_strict_key: False
         
 
-usa_group: {}
+cisco_south:
+    platform: "ios"
+    connection_options:
+        scrapli:
+            extras:
+                ssh_config_file: True
+                auth_strict_key: False
