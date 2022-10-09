@@ -8,14 +8,14 @@ vIOS2:
     hostname: "192.168.1.102"
     groups:
         - cisco_north
-vIOS3:
-    hostname: "192.168.1.103"
-    groups:
-        - cisco_north
-vIOS4:
-    hostname: "192.168.1.104"
-    groups:
-        - cisco_north
+# vIOS3:
+#     hostname: "192.168.1.103"
+#     groups:
+#         - cisco_north
+# # vIOS4:
+#     hostname: "192.168.1.104"
+#     groups:
+#         - cisco_north
 vIOS5:
     hostname: "192.168.1.105"
     groups:
@@ -24,12 +24,12 @@ vIOS6:
     hostname: "192.168.1.106"
     groups:
         - cisco_south
-vIOS7:
-    hostname: "192.168.1.107"
-    password: "password1"
-    groups:
-        - cisco_south
-vIOS8:
-    hostname: "192.168.1.108"
-    groups:
-        - cisco_south
+# vIOS7:
+#     hostname: "192.168.1.107"
+#     password: "password1"
+#     groups:
+#         - cisco_south
+# vIOS8:
+#     hostname: "192.168.1.108"
+#     groups:
+#         - cisco_south
