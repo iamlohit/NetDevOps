@@ -1,0 +1,14 @@
+no serv config
+no boot net
+username lohit priv 15 pass cisco
+restconf
+ip http server
+ip http authentication local
+ip http secure-server
+netconf-yang
+netconf-yang feature candidate-datastore
+vrf def MGMT
+add ipv4
+exit
+int g1
+vrf forw MGMT

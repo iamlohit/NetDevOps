@@ -2,8 +2,8 @@ from nornir import InitNornir
 from nornir_scrapli.tasks import send_command
 from nornir_scrapli.tasks import send_configs
 from nornir_utils.plugins.functions import print_result
-import ipdb
-from rich import print as rprint
+# import ipdb
+# from rich import print as rprint
 
 nr = InitNornir(config_file="config.yaml")
 

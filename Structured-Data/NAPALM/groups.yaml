@@ -1,0 +1,25 @@
+---
+
+cisco_north:
+    platform: "ios"
+    password: "cisconorth"
+    connection_options:
+        scrapli:
+            extras:
+                ssh_config_file: True
+                auth_strict_key: False
+        
+
+cisco_south:
+    platform: "ios"
+    password: "ciscosouth"
+    connection_options:
+        scrapli:
+            extras:
+                ssh_config_file: True
+                auth_strict_key: False
+
+junos_group:
+    platform: "junos"
+    username: "root"
+    password: "juniper1"
