@@ -1,0 +1,22 @@
+---
+
+R1:
+    hostname: "192.168.1.101"
+    groups:
+        - cisco_group
+
+R2:
+    hostname: "192.168.1.102"
+    groups:
+        - cisco_group
+
+R3:
+    hostname: "192.168.1.103"
+    groups:
+        - cisco_group
+
+vMX-1:
+    hostname: "192.168.1.104"
+    groups:
+        - junos_group
+

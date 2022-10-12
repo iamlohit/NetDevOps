@@ -1,0 +1,4 @@
+---
+
+snmp:
+    snmp_community: "Lohit-Admin-2"

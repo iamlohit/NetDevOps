@@ -1,0 +1,17 @@
+---
+
+snmp:
+    snmp_community: "Lohit-Admin-2"
+
+ospf:
+    ospf_rid: 1.1.1.1
+
+bgp:
+    asn: "65001"
+    rid: 1.1.1.1
+    update_source: "loopback0"
+    route_reflector: False
+    neighbors:
+        - 2.2.2.2
+        - 3.3.3.3
+        

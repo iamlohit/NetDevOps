@@ -1,0 +1,22 @@
+---
+
+cisco_group:
+    platform: "ios"
+    password: "cisco"
+    connection_options:
+        scrapli:
+            extras:
+                ssh_config_file: True
+                auth_strict_key: False
+
+junos_group:
+    platform: "junos"
+    username: "lohit"
+    password: "juniper1"
+    connection_options:
+        scrapli:
+            extras:
+                ssh_config_file: True
+                auth_strict_key: False
+        
+

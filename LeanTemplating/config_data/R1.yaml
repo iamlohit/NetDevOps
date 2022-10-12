@@ -1,0 +1,7 @@
+---
+
+snmp:
+    snmp_community: "Lohit-Admin-2"
+
+ntp:
+    server: "1.2.3.4"
