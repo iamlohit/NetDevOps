@@ -2,15 +2,15 @@
 
 This Repo is to document good automation use cases in a step by step way.
 
-├── 1. Create a Lab Environment for Network Automation
-├── 2. Understand the Nornir Automation Architecture
-├── 3. Automate Network Configurations and Change Management
-├── 4. Implement Automation Security
-├── 5. Manage Credentials for Automation
-├── 6. Understand Structured Data for Network Automation
-├── 7. Automate Networks with Structured Data
-├── 8. Build Templates for Automation
-├── 9. Optimize Automation Solutions(Netbox)
+*├── 1. Create a Lab Environment for Network Automation
+*├── 2. Understand the Nornir Automation Architecture
+*├── 3. Automate Network Configurations and Change Management
+*├── 4. Implement Automation Security
+*├── 5. Manage Credentials for Automation
+*├── 6. Understand Structured Data for Network Automation
+*├── 7. Automate Networks with Structured Data
+*├── 8. Build Templates for Automation
+*├── 9. Optimize Automation Solutions(Netbox)
 ├── 10. Implement Filtering for Network Automation
 ├── 11. Automate Archiving Network Configurations and Device State
 ├── 12. Automate Layer 2 Troubleshooting
