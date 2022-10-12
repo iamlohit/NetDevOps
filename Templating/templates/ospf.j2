@@ -1,0 +1,5 @@
+router ospf {{ host['ospf']['ospf_process'] }}
+router-id {{ host['ospf']['ospf_rid'] }}
+{% for network in host['ospf']['ospf_networks'] %}
+network {{ network['ip'] }} {{ network['wildcard'] }} area {{ network['area'] }}
+{% endfor %}

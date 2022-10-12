@@ -1,0 +1,64 @@
+---
+
+R1:
+    hostname: "192.168.1.101"
+    groups:
+        - cisco_group
+    data:
+        snmp:
+            snmp_community: "Lohit-Admin"
+    #     ospf:
+    #         ospf_rid: 1.1.1.1
+    #         ospf_process: "1"
+    #         ospf_networks:
+    #             - ip: "10.0.1.0"
+    #               wildcard: "0.0.0.255"
+    #               area: "0"
+    #             - ip: "10.0.11.0"
+    #               wildcard: "0.0.0.255"
+    #               area: "1"
+
+R2:
+    hostname: "192.168.1.102"
+    groups:
+        - cisco_group
+    data:
+        snmp:
+            snmp_community: "Lohit-Admin"
+    #     ospf:
+    #         ospf_rid: 2.2.2.2
+    #         ospf_process: "1"
+    #         ospf_networks:
+    #             - ip: "10.0.2.0"
+    #               wildcard: "0.0.0.255"
+    #               area: "0"
+    #             - ip: "10.0.22.0"
+    #               wildcard: "0.0.0.255"
+    #               area: "2"
+
+R3:
+    hostname: "192.168.1.103"
+    groups:
+        - cisco_group
+    data:
+        snmp:
+            snmp_community: "Lohit-Admin"
+    #     ospf:
+    #         ospf_rid: 3.3.3.3
+    #         ospf_process: "1"
+    #         ospf_networks:
+    #             - ip: "10.0.3.0"
+    #               wildcard: "0.0.0.255"
+    #               area: "0"
+    #             - ip: "10.0.33.0"
+    #               wildcard: "0.0.0.255"
+    #               area: "3"
+
+vMX-1:
+    hostname: "192.168.1.104"
+    groups:
+        - junos_group
+    data:
+        snmp:
+            snmp_community: "Lohit-Admin"
+
